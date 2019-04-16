@@ -4,9 +4,30 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 20px;
+  color: #ffffff;
+}
+
 .wrapper {
   background-image: url(../img/kod_bajt_tsifry_121341_3840x2160.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+main ul {
+  list-style: none;
+  padding: 0;
+}
+
+main ul li a  {
+  color: inherit;
+  text-decoration: none;
+
 }
