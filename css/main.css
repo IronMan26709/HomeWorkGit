@@ -3,3 +3,10 @@
 *::after {
   box-sizing: border-box;
 }
+
+.wrapper {
+  background-image: url(../img/kod_bajt_tsifry_121341_3840x2160.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
