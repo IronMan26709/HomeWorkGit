@@ -1,0 +1,76 @@
+*,
+*::before, 
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.psevdo::before {
+  content: attr(href);
+  padding-right: 5px;
+}
+
+.psevdo {
+  width: 400px;
+  height: 240px;
+  background-image: url(../img/images.jp);
+  background-repeat: no-repeat;
+  background-position: right;
+  display: flex;
+  align-items: flex-end;
+  padding: 15px 10px;
+  position: relative;
+  text-decoration: none;
+}
+
+.psevdo::after {
+  content: url(../img/images.jpg);
+  position: absolute;
+  left: 170px;
+  width: 200px;
+  height: 240px;
+}
+
+main {
+  padding: 0;
+  margin: 0;
+}
+
+.bg-box {
+  margin: 0;
+  background-color: #2a700a;
+  height: 800px;
+  width: 100%;
+  background-image: url(../img/pole-zelen-trava-dom-derevya.jpg),
+    url(../img/lamp-png-34914.png),
+    url(../img/green-png-44873\ \(1\).png),
+    url(../img/58eb07b830eab15b56162788.png),
+    url(../img/image.png);
+    background-repeat: no-repeat,
+    repeat-x,
+    repeat-x,
+    repeat-y,
+    repeat-y;
+  background-position: center,
+    top,
+    bottom,
+    right,
+    left;
+}
+
+h1 {
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.bg-holder {
+  padding: 0;
+  margin: 0;
+}

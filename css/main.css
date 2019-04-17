@@ -10,7 +10,7 @@ body {
   background-image: url(../img/gory_zvezdnoe_nebo_mlechnyj_put_noch_119973_3840x2160.jpg);
   background-position: center center;
   background-repeat: no-repeat;
-  margin: 0 auto;
+  font-family: 'Raleway', sans-serif;
 }
 
 .wrapper {
@@ -24,13 +24,13 @@ body {
 header {
   margin: 50px 0 50px 0;
   text-align: center;
-
 }
 
 h2 {
   padding: 30px 0;
   border-bottom: 15px double rgba(7, 7, 75, 1);
   border-top: 15px double rgba(7, 7, 75, 1);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 main ul {
@@ -56,6 +56,6 @@ main ul li {
   transition: 0.4s;
 }
 
-main ul li:hover {
-  transform: scale(1.1);
+main ul li a:hover {
+  transform: scale(1.2);
 }
